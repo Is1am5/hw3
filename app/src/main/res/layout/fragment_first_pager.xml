@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FirstPagerFragment">
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:text="+"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dp"
+        android:layout_height="@dimen/dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:text="-"
+        android:layout_marginTop="@dimen/dp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dp"
+        android:layout_height="@dimen/dp"
+        tools:ignore="HardcodedText" />
+</FrameLayout>
